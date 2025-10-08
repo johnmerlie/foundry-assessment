@@ -1,4 +1,4 @@
-# foundry-assessment
+# Foundry Assessment
 
 This project describes the requirements for a skills assessment for a Foundry Solutions Engineer.
 
