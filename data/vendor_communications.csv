@@ -1,0 +1,769 @@
+communication_id,date,vendor_id,direction,subject,message
+COMM0001,2023-01-01,VEN009,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0002,2023-01-02,VEN008,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0003,2023-01-03,VEN010,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT012 instead of MAT037. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0004,2023-01-17,VEN011,from_vendor,RE: Expected Delivery,About your question on when PO00010 will arrive - we're running behind schedule due to some customs documentation issues. The paperwork got held up and now we're looking at an extra 6 days before it clears. Should be resolved soon but wanted to keep you in the loop. Let me know if this creates problems.
+COMM0005,2023-01-04,VEN004,to_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0006,2023-01-05,VEN018,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0007,2023-01-06,VEN013,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0008,2023-01-07,VEN010,from_vendor,Product Hold Notice,"PRODUCT HOLD
+Batch: 4867
+Product: MAT041
+Reason: Failed stability testing
+Action: Dispose immediately
+
+This batch has shown accelerated degradation in stability testing. Product quality cannot be guaranteed. Please confirm disposal and quantity for credit processing."
+COMM0009,2023-01-19,VEN002,from_vendor,Delivery Update - PO00026,Hi! So sorry about this but we're running into some issues with PO00026. Our main truck broke down and we're scrambling to find alternative transport. Looking at maybe 4 extra days? Will keep you posted. Really apologize for the inconvenience!
+COMM0010,2023-01-07,VEN014,from_vendor,RE: Follow up,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0011,2023-01-20,VEN002,from_vendor,Carrier Delay Notice,Our carrier just notified us that PO00035 is stuck in their hub due to sorting equipment failure. They're manually processing everything which is taking forever. Estimate is 9 additional days before delivery. I'm considering switching carriers if this keeps happening. Sorry for the hassle!
+COMM0012,2023-01-19,VEN013,from_vendor,Supply Chain Disruption,"Hi, we're experiencing a major supply chain disruption affecting multiple orders including PO00037. One of our key suppliers had a facility fire and we're scrambling to source materials elsewhere. Your order will be delayed approximately 3 days. I'll keep you posted as the situation develops."
+COMM0013,2023-01-08,VEN009,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0014,2023-01-20,VEN010,from_vendor,RE: Delivery Schedule,About PO00042 - we had to re-route the shipment due to road closures from the storm. The detour adds significant time and we're now looking at 8 extra days for delivery. Driver is making good progress but weather is still causing issues. Will update you when I have better visibility.
+COMM0015,2023-01-16,VEN010,from_vendor,Shipment Status Update,"Hi, checking in about PO00044. Unfortunately we're experiencing delays due to severe weather in the region. All shipments are backed up by about 8 days. Once the weather clears we'll get everything moving again. I'll send tracking info as soon as it ships. Thanks for your patience!"
+COMM0016,2023-01-17,VEN010,from_vendor,Regulatory Inspection Delay,We had an unscheduled regulatory inspection this week that shut down production for 2 days. Everything passed but it put us way behind. PO00047 is now delayed by 9 days. New estimated delivery is 01/27/2023. Let me know if this creates problems and we can discuss options.
+COMM0017,2023-01-21,VEN008,from_vendor,Transportation Issue - PO00050,"We have a transportation problem with PO00050. The freight company lost your shipment in their system (yes, really) and it took us 2 days to locate it. Now we're 3 days behind the original schedule. Tracking number will be sent once it's actually on a truck. This is embarrassing and I apologize."
+COMM0018,2023-01-20,VEN018,from_vendor,Production Backlog Alert,"PRODUCTION BACKLOG ALERT
+
+Order: PO00052
+Status: Delayed
+Reason: Unexpected surge in demand
+Additional Time Needed: 6 days
+New ETA: 01/27/2023
+
+We are working overtime to catch up. Please advise if this delay creates critical issues for your operations."
+COMM0019,2023-01-09,VEN016,to_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #7238 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0020,2023-01-09,VEN001,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-6724. If you received this batch (shipped between 12/26 and 01/02), please quarantine immediately and contact us. Full details in attached notice."
+COMM0021,2023-01-10,VEN018,from_vendor,FW: Recall Notice - MAT035,"---------- Forwarded message ---------
+From: QA Department
+Date: Tue, Jan 10, 2023
+Subject: Recall Notice
+
+Attention: Batch 3042 of MAT035 has failed our internal quality standards. All customers who received this batch should dispose of remaining inventory immediately. Contact customer service for replacement or refund."
+COMM0022,2023-01-18,VEN016,from_vendor,Fuel Shortage Impact,"Believe it or not, there's a regional fuel shortage affecting all carriers in the area. Our freight company is rationing deliveries and PO00054 got pushed back. Looking at 8 additional days. This is completely out of our control but I wanted to keep you informed. Frustrating situation for everyone."
+COMM0023,2023-01-22,VEN002,from_vendor,Order Status - PO00061,Quick update on your order - we had a production hiccup (equipment maintenance took longer than expected) so PO00061 is going to be late. Should be about 4 days behind schedule. Let me know if this is a problem and we can try to expedite. Thanks for understanding!
+COMM0024,2023-01-21,VEN018,from_vendor,Third Party Logistics Issue,Our 3PL partner just informed us they have a backlog due to staffing issues. PO00065 is sitting in their warehouse waiting to be processed and shipped. They're saying 7 days until they can get to it. I'm escalating with their management but wanted you to know what's happening. -Chris
+COMM0025,2023-01-10,VEN012,to_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0026,2023-01-10,VEN018,from_vendor,Quality Certificate,Attached please find the Q1 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0027,2023-01-20,VEN008,from_vendor,Order PO00066 Update,"Hey! So we ran into a snag with PO00066. Our warehouse management system went down yesterday and we lost a day of processing. Then this morning the loading dock equipment malfunctioned. Long story short, we're about 7 days behind. Everything is back to normal now but the damage is done. Really sorry about this!"
+COMM0028,2023-01-22,VEN010,from_vendor,Delivery Postponed,Unfortunately I have to let you know that PO00068 won't make the original delivery date. We're dealing with a driver shortage and can't get a truck scheduled until next week. This adds about 9 days to the timeline. I'm really sorry - this has been a recurring issue with our carrier lately. Might be time to switch.
+COMM0029,2023-01-23,VEN008,from_vendor,RE: PO00082 Status,"Just got an update from the plant - PO00082 is delayed because we had a power outage yesterday that shut down production for 8 hours. Combined with some other issues, we're looking at 8 extra days. I know this isn't what you want to hear. Let me know if you need me to escalate internally."
+COMM0030,2023-01-11,VEN013,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-8173. If you received this batch (shipped between 12/28 and 01/04), please quarantine immediately and contact us. Full details in attached notice."
+COMM0031,2023-01-20,VEN014,from_vendor,Packaging Material Shortage,Bad news - we're out of packaging materials and our supplier can't deliver until next week. This means PO00084 is sitting in our warehouse ready to go but we can't ship it. Looking at 8 days delay. I know this is ridiculous. We're implementing better inventory controls to prevent this in the future.
+COMM0032,2023-01-19,VEN004,from_vendor,FW: Warehouse Capacity Issue,"---------- Forwarded message ---------
+From: Operations
+Subject: Warehouse at capacity
+
+All outbound shipments delayed 5 days due to warehouse capacity constraints. Cannot load trucks until space clears.
+
+---
+This affects your order PO00092. Not ideal but we're working through it. -Steve"
+COMM0033,2023-01-21,VEN007,from_vendor,Order PO00100 Update,"Hey! So we ran into a snag with PO00100. Our warehouse management system went down yesterday and we lost a day of processing. Then this morning the loading dock equipment malfunctioned. Long story short, we're about 5 days behind. Everything is back to normal now but the damage is done. Really sorry about this!"
+COMM0034,2023-01-12,VEN004,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0035,2023-01-19,VEN015,from_vendor,Delivery Postponed,Unfortunately I have to let you know that PO00107 won't make the original delivery date. We're dealing with a driver shortage and can't get a truck scheduled until next week. This adds about 6 days to the timeline. I'm really sorry - this has been a recurring issue with our carrier lately. Might be time to switch.
+COMM0036,2023-01-19,VEN010,from_vendor,Transportation Issue - PO00108,"We have a transportation problem with PO00108. The freight company lost your shipment in their system (yes, really) and it took us 2 days to locate it. Now we're 4 days behind the original schedule. Tracking number will be sent once it's actually on a truck. This is embarrassing and I apologize."
+COMM0037,2023-01-17,VEN017,from_vendor,RE: Expected Delivery,About your question on when PO00125 will arrive - we're running behind schedule due to some customs documentation issues. The paperwork got held up and now we're looking at an extra 5 days before it clears. Should be resolved soon but wanted to keep you in the loop. Let me know if this creates problems.
+COMM0038,2023-01-24,VEN013,from_vendor,RE: Delivery Schedule,About PO00127 - we had to re-route the shipment due to road closures from the storm. The detour adds significant time and we're now looking at 6 extra days for delivery. Driver is making good progress but weather is still causing issues. Will update you when I have better visibility.
+COMM0039,2023-01-13,VEN005,from_vendor,Delivery Confirmation,Just confirming that PO71509 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0040,2023-01-22,VEN010,from_vendor,Urgent: Delivery Timeline Change,"URGENT UPDATE
+
+Your order PO00142 has been impacted by a carrier strike. All deliveries are delayed by approximately 4 days. We are actively working to secure alternative transportation but cannot guarantee the original delivery date of 01/23/2023. New estimated delivery: 01/27/2023. Please contact us immediately if this creates critical supply issues."
+COMM0041,2023-01-19,VEN002,from_vendor,System Migration Delay,We're in the middle of a system migration and it's not going smoothly. Order processing has been delayed across the board. PO00143 is affected and will be approximately 8 days late. I know this is our problem not yours. We'll have a credit applied to your account for the inconvenience.
+COMM0042,2023-01-20,VEN006,from_vendor,Order Delay - PO00145,Wanted to give you a heads up that PO00145 is running behind. We had some equipment break down in the middle of your production run and had to pause everything while we got it fixed. Back up and running now but we lost about 5 days. Should ship by 01/26/2023. Sorry for the delay!
+COMM0043,2023-01-27,VEN008,from_vendor,Shipping Update,"SHIPPING UPDATE
+
+Order: PO00146
+Original Ship Date: 01/26/2023
+Revised Ship Date: 02/04/2023
+Reason: Port congestion
+Delay: 9 business days
+
+We apologize for this inconvenience and appreciate your patience."
+COMM0044,2023-01-25,VEN010,from_vendor,FW: Logistics Issue,"---------- Forwarded message ---------
+From: Warehouse Manager
+Date: Sat, Jan 14
+
+We have a situation with PO00154. Raw material shortage means we can't complete production until next week. Customer delivery will be delayed approximately 6 days. Please notify customer.
+
+---
+Hi, see above. Really sorry about this. Let me know if this creates major problems for you."
+COMM0045,2023-01-23,VEN007,from_vendor,Important: Delivery Delay,"Hey, just got word from our logistics team that PO00157 is going to be delayed. There's a massive backup at the distribution center due to the holiday rush. They're saying 5 additional days minimum. I'm pushing them to expedite but wanted to set expectations. Will keep you updated!"
+COMM0046,2023-01-14,VEN003,from_vendor,Quality Certificate,Attached please find the Q2 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0047,2023-01-27,VEN019,from_vendor,Order Status - PO00172,Quick update on your order - we had a production hiccup (equipment maintenance took longer than expected) so PO00172 is going to be late. Should be about 5 days behind schedule. Let me know if this is a problem and we can try to expedite. Thanks for understanding!
+COMM0048,2023-01-21,VEN016,from_vendor,Inspection Hold Delay,Quick heads up - PO00181 got flagged for a random quality inspection which has delayed shipment. Everything passed inspection but the process added 4 days to the timeline. New ship date is approximately 01/26/2023. Sorry for the unexpected delay!
+COMM0049,2023-01-15,VEN019,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0050,2023-01-15,VEN007,to_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #8073 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0051,2023-01-16,VEN012,from_vendor,Quality Issue - Batch 1023,"Hi team, hope everyone is doing well! Just wanted to reach out about batch 1023 of MAT016. We noticed some inconsistencies during QA testing - nothing major but out of abundance of caution we recommend disposing of units from that batch. Let me know if you have questions! Best, Sarah"
+COMM0052,2023-01-29,VEN008,from_vendor,RE: PO00207 Status,"Just got an update from the plant - PO00207 is delayed because we had a power outage yesterday that shut down production for 8 hours. Combined with some other issues, we're looking at 9 extra days. I know this isn't what you want to hear. Let me know if you need me to escalate internally."
+COMM0053,2023-01-23,VEN016,from_vendor,Delay Notice - PO00222,"Hi there, wanted to reach out personally about PO00222. We've run into some unexpected delays - combination of equipment issues and staffing shortages. Your order is going to be about 7 days late. I know this isn't ideal. If you need to cancel or modify the order, just let me know. Otherwise it'll ship as soon as we're back on track."
+COMM0054,2023-01-16,VEN014,to_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0055,2023-01-16,VEN020,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0056,2023-01-17,VEN013,from_vendor,Supplier Recall Notification,"Our raw material supplier has issued a recall that affects batch 5666 of MAT019 that we produced for you. While our finished product testing showed no issues, out of abundance of caution we are asking you to dispose of this batch. Full details in attached supplier notice. Credit will be processed immediately."
+COMM0057,2023-01-23,VEN006,from_vendor,DELIVERY NOTIFICATION,DELIVERY NOTIFICATION: Order PO00249 has been rescheduled. Original ETA was 01/24/2023 but due to carrier capacity constraints the new ETA is 01/30/2023. Please contact us if this causes any issues.
+COMM0058,2023-01-17,VEN009,to_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0059,2023-01-17,VEN019,to_vendor,RE: Update,"Got it, thanks!"
+COMM0060,2023-01-24,VEN007,from_vendor,Shipment Status Update,"Hi, checking in about PO00271. Unfortunately we're experiencing delays due to severe weather in the region. All shipments are backed up by about 3 days. Once the weather clears we'll get everything moving again. I'll send tracking info as soon as it ships. Thanks for your patience!"
+COMM0061,2023-01-27,VEN005,from_vendor,FW: Warehouse Capacity Issue,"---------- Forwarded message ---------
+From: Operations
+Subject: Warehouse at capacity
+
+All outbound shipments delayed 6 days due to warehouse capacity constraints. Cannot load trucks until space clears.
+
+---
+This affects your order PO00280. Not ideal but we're working through it. -Steve"
+COMM0062,2023-01-31,VEN002,from_vendor,PO00283 - Revised Timeline,"Hi! Quick update on PO00283. We had a quality control hold that delayed production by a few days, and now we're looking at a 6 day delay on delivery. Everything checked out fine in QC, just took longer than expected. New delivery date should be around 02/07/2023. Let me know if you have concerns!"
+COMM0063,2023-01-26,VEN010,from_vendor,FW: Logistics Issue,"---------- Forwarded message ---------
+From: Warehouse Manager
+Date: Wed, Jan 18
+
+We have a situation with PO00298. Raw material shortage means we can't complete production until next week. Customer delivery will be delayed approximately 3 days. Please notify customer.
+
+---
+Hi, see above. Really sorry about this. Let me know if this creates major problems for you."
+COMM0064,2023-01-18,VEN016,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0065,2023-01-18,VEN014,to_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0066,2023-01-19,VEN014,from_vendor,Supplier Recall Notification,"Our raw material supplier has issued a recall that affects batch 4700 of MAT024 that we produced for you. While our finished product testing showed no issues, out of abundance of caution we are asking you to dispose of this batch. Full details in attached supplier notice. Credit will be processed immediately."
+COMM0067,2023-01-23,VEN017,from_vendor,Cyber Security Incident,"We experienced a cyber security incident that required us to take systems offline as a precaution. Everything is secure now but we lost several days of production time. PO00311 is delayed approximately 7 days. We take security seriously and this was the right call, but I know it impacts you. Thanks for understanding."
+COMM0068,2023-01-30,VEN018,from_vendor,Packaging Material Shortage,Bad news - we're out of packaging materials and our supplier can't deliver until next week. This means PO00328 is sitting in our warehouse ready to go but we can't ship it. Looking at 4 days delay. I know this is ridiculous. We're implementing better inventory controls to prevent this in the future.
+COMM0069,2023-01-27,VEN014,from_vendor,RE: Your Order,"Hey - bad news on PO00333. Weather delays at the port plus some customs paperwork issues. Probably looking at another 6 days, maybe more. I'll call you tomorrow to discuss options. -Mike"
+COMM0070,2023-01-23,VEN002,from_vendor,Delay Notice - PO00335,"Hi there, wanted to reach out personally about PO00335. We've run into some unexpected delays - combination of equipment issues and staffing shortages. Your order is going to be about 5 days late. I know this isn't ideal. If you need to cancel or modify the order, just let me know. Otherwise it'll ship as soon as we're back on track."
+COMM0071,2023-01-27,VEN010,from_vendor,PO00336 - Revised Timeline,"Hi! Quick update on PO00336. We had a quality control hold that delayed production by a few days, and now we're looking at a 8 day delay on delivery. Everything checked out fine in QC, just took longer than expected. New delivery date should be around 02/05/2023. Let me know if you have concerns!"
+COMM0072,2023-01-27,VEN018,from_vendor,Delivery Update - PO00341,Hi! So sorry about this but we're running into some issues with PO00341. Our main truck broke down and we're scrambling to find alternative transport. Looking at maybe 9 extra days? Will keep you posted. Really apologize for the inconvenience!
+COMM0073,2023-01-19,VEN009,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0074,2023-01-19,VEN014,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0075,2023-01-25,VEN020,from_vendor,Labor Shortage Impact,"Hi, wanted to give you a heads up that we're dealing with significant labor shortages right now. We're running at about 60% capacity which is impacting all orders including PO00345. Expect a delay of approximately 8 days. We're actively hiring but it's a tough market. Sorry for the inconvenience."
+COMM0076,2023-01-24,VEN017,from_vendor,Regulatory Inspection Delay,We had an unscheduled regulatory inspection this week that shut down production for 2 days. Everything passed but it put us way behind. PO00348 is now delayed by 5 days. New estimated delivery is 01/30/2023. Let me know if this creates problems and we can discuss options.
+COMM0077,2023-01-29,VEN005,from_vendor,Carrier Delay Notice,Our carrier just notified us that PO00353 is stuck in their hub due to sorting equipment failure. They're manually processing everything which is taking forever. Estimate is 6 additional days before delivery. I'm considering switching carriers if this keeps happening. Sorry for the hassle!
+COMM0078,2023-01-26,VEN015,from_vendor,Third Party Logistics Issue,Our 3PL partner just informed us they have a backlog due to staffing issues. PO00360 is sitting in their warehouse waiting to be processed and shipped. They're saying 3 days until they can get to it. I'm escalating with their management but wanted you to know what's happening. -Chris
+COMM0079,2023-02-01,VEN015,from_vendor,Delay Notification,"Hi there, I wish I had better news but PO00368 is going to be delayed. We're short-staffed this week (flu going around the warehouse) and we're running behind on all orders. Your shipment will be approximately 7 days late. I know this is frustrating. If you need to escalate or want to discuss compensation, I understand. -Mark"
+COMM0080,2023-01-25,VEN020,from_vendor,RE: Order PO00370,"Bad news on PO00370 - our supplier didn't deliver the raw materials on time, which means we're behind schedule. Looking at roughly 9 extra days before we can ship. This is on us, not you. Let me know if you want to discuss alternatives or if you need me to try to source from somewhere else."
+COMM0081,2023-01-27,VEN008,from_vendor,Shipment Delay - PO00374,"Ugh, I have some frustrating news. The carrier we use just informed us they're completely backed up and can't pick up PO00374 until next week. This pushes your delivery out by about 7 days from what we originally quoted. I'm looking into alternative carriers but wanted to give you a heads up ASAP. Sorry!"
+COMM0082,2023-01-27,VEN001,from_vendor,RE: Your Order,"Hey - bad news on PO00376. Weather delays at the port plus some customs paperwork issues. Probably looking at another 7 days, maybe more. I'll call you tomorrow to discuss options. -Mike"
+COMM0083,2023-01-20,VEN019,to_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0084,2023-01-29,VEN019,from_vendor,Important: Delivery Delay,"Hey, just got word from our logistics team that PO00386 is going to be delayed. There's a massive backup at the distribution center due to the holiday rush. They're saying 4 additional days minimum. I'm pushing them to expedite but wanted to set expectations. Will keep you updated!"
+COMM0085,2023-01-27,VEN015,from_vendor,Customs Clearance Delay,"CUSTOMS DELAY NOTICE
+
+Order: PO00387
+Status: Held in customs
+Reason: Additional documentation required
+Estimated Delay: 9 days
+
+We are working with our customs broker to expedite clearance. Will provide updates as situation progresses."
+COMM0086,2023-01-27,VEN016,from_vendor,RE: Order PO00389,"Bad news on PO00389 - our supplier didn't deliver the raw materials on time, which means we're behind schedule. Looking at roughly 7 extra days before we can ship. This is on us, not you. Let me know if you want to discuss alternatives or if you need me to try to source from somewhere else."
+COMM0087,2023-01-30,VEN011,from_vendor,DELIVERY NOTIFICATION,DELIVERY NOTIFICATION: Order PO00390 has been rescheduled. Original ETA was 01/31/2023 but due to carrier capacity constraints the new ETA is 02/08/2023. Please contact us if this causes any issues.
+COMM0088,2023-01-31,VEN005,from_vendor,FW: Production Delay,"Forwarding this from production:
+
+""Order PO00393 delayed due to ingredient shortage from our supplier. Estimated 9 day delay.""
+
+Not much I can add to that unfortunately. We're at the mercy of our upstream suppliers on this one. I'll push them to expedite but wanted you to know what's going on. -Jennifer"
+COMM0089,2023-01-29,VEN010,from_vendor,Shipment Update,"Subject: Shipment Update
+
+Dear Customer,
+
+Regarding your order PO00394, we are experiencing unexpected delays in our supply chain. Current estimate is 5 additional business days beyond original delivery date. We appreciate your patience and understanding during this time.
+
+Sincerely,
+Logistics Team"
+COMM0090,2023-02-02,VEN016,from_vendor,Raw Material Quality Issue,We received a batch of raw materials that failed our incoming quality inspection. Had to reject it and wait for replacement from our supplier. This has delayed production of PO00396 by 4 days. Quality is our top priority so we couldn't compromise. New ship date: 02/07/2023.
+COMM0091,2023-01-27,VEN015,from_vendor,FW: Production Delay,"Forwarding this from production:
+
+""Order PO00400 delayed due to ingredient shortage from our supplier. Estimated 6 day delay.""
+
+Not much I can add to that unfortunately. We're at the mercy of our upstream suppliers on this one. I'll push them to expedite but wanted you to know what's going on. -Jennifer"
+COMM0092,2023-01-29,VEN014,from_vendor,Shipping Update,"SHIPPING UPDATE
+
+Order: PO00408
+Original Ship Date: 01/28/2023
+Revised Ship Date: 02/04/2023
+Reason: Port congestion
+Delay: 7 business days
+
+We apologize for this inconvenience and appreciate your patience."
+COMM0093,2023-01-29,VEN010,from_vendor,Urgent: Delivery Timeline Change,"URGENT UPDATE
+
+Your order PO00410 has been impacted by a carrier strike. All deliveries are delayed by approximately 9 days. We are actively working to secure alternative transportation but cannot guarantee the original delivery date of 01/30/2023. New estimated delivery: 02/08/2023. Please contact us immediately if this creates critical supply issues."
+COMM0094,2023-02-01,VEN003,from_vendor,Facility Maintenance Overrun,"Our scheduled facility maintenance took longer than planned - found some issues that needed immediate attention. Production was down for an extra 2 days. PO00412 is now delayed by 6 days total. Better to fix it now than have a bigger problem later, but I know it doesn't help your situation. Sorry!"
+COMM0095,2023-01-21,VEN013,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0096,2023-01-28,VEN016,from_vendor,Supply Chain Disruption,"Hi, we're experiencing a major supply chain disruption affecting multiple orders including PO00423. One of our key suppliers had a facility fire and we're scrambling to source materials elsewhere. Your order will be delayed approximately 6 days. I'll keep you posted as the situation develops."
+COMM0097,2023-02-03,VEN004,from_vendor,Facility Maintenance Overrun,"Our scheduled facility maintenance took longer than planned - found some issues that needed immediate attention. Production was down for an extra 2 days. PO00426 is now delayed by 6 days total. Better to fix it now than have a bigger problem later, but I know it doesn't help your situation. Sorry!"
+COMM0098,2023-02-02,VEN003,from_vendor,Ingredient Recall Impact,One of our ingredient suppliers issued a recall which affected our inventory. We had to dispose of materials and wait for replacement before we could produce PO00430. This has caused a 3 day delay. Everything is back on track now. New delivery estimate: 02/06/2023.
+COMM0099,2023-02-04,VEN008,from_vendor,Production Backlog Alert,"PRODUCTION BACKLOG ALERT
+
+Order: PO00434
+Status: Delayed
+Reason: Unexpected surge in demand
+Additional Time Needed: 9 days
+New ETA: 02/14/2023
+
+We are working overtime to catch up. Please advise if this delay creates critical issues for your operations."
+COMM0100,2023-01-29,VEN020,from_vendor,Inspection Hold Delay,Quick heads up - PO00445 got flagged for a random quality inspection which has delayed shipment. Everything passed inspection but the process added 7 days to the timeline. New ship date is approximately 02/06/2023. Sorry for the unexpected delay!
+COMM0101,2023-01-27,VEN002,from_vendor,Equipment Failure Update,Update on PO00448: Our main production line had a critical equipment failure that took 3 days to repair. We're back online now but your order is 3 days behind schedule. We're running extra shifts to catch up. Really sorry about this - the equipment failure was completely unexpected.
+COMM0102,2023-02-02,VEN003,from_vendor,Equipment Failure Update,Update on PO00451: Our main production line had a critical equipment failure that took 3 days to repair. We're back online now but your order is 6 days behind schedule. We're running extra shifts to catch up. Really sorry about this - the equipment failure was completely unexpected.
+COMM0103,2023-01-22,VEN008,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0104,2023-01-22,VEN006,from_vendor,RE: Quick question,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0105,2023-01-31,VEN012,from_vendor,Fuel Shortage Impact,"Believe it or not, there's a regional fuel shortage affecting all carriers in the area. Our freight company is rationing deliveries and PO00456 got pushed back. Looking at 5 additional days. This is completely out of our control but I wanted to keep you informed. Frustrating situation for everyone."
+COMM0106,2023-02-04,VEN002,from_vendor,Shipment Update,"Subject: Shipment Update
+
+Dear Customer,
+
+Regarding your order PO00459, we are experiencing unexpected delays in our supply chain. Current estimate is 7 additional business days beyond original delivery date. We appreciate your patience and understanding during this time.
+
+Sincerely,
+Logistics Team"
+COMM0107,2023-02-02,VEN008,from_vendor,Ingredient Recall Impact,One of our ingredient suppliers issued a recall which affected our inventory. We had to dispose of materials and wait for replacement before we could produce PO00461. This has caused a 7 day delay. Everything is back on track now. New delivery estimate: 02/10/2023.
+COMM0108,2023-02-03,VEN003,from_vendor,Cyber Security Incident,"We experienced a cyber security incident that required us to take systems offline as a precaution. Everything is secure now but we lost several days of production time. PO00467 is delayed approximately 7 days. We take security seriously and this was the right call, but I know it impacts you. Thanks for understanding."
+COMM0109,2023-01-30,VEN004,from_vendor,Raw Material Quality Issue,We received a batch of raw materials that failed our incoming quality inspection. Had to reject it and wait for replacement from our supplier. This has delayed production of PO00480 by 7 days. Quality is our top priority so we couldn't compromise. New ship date: 02/07/2023.
+COMM0110,2023-02-04,VEN002,from_vendor,Customs Clearance Delay,"CUSTOMS DELAY NOTICE
+
+Order: PO00481
+Status: Held in customs
+Reason: Additional documentation required
+Estimated Delay: 6 days
+
+We are working with our customs broker to expedite clearance. Will provide updates as situation progresses."
+COMM0111,2023-01-23,VEN015,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0112,2023-02-04,VEN010,from_vendor,Delay Notification,"Hi there, I wish I had better news but PO00484 is going to be delayed. We're short-staffed this week (flu going around the warehouse) and we're running behind on all orders. Your shipment will be approximately 6 days late. I know this is frustrating. If you need to escalate or want to discuss compensation, I understand. -Mark"
+COMM0113,2023-02-04,VEN003,from_vendor,Order Delay - PO00492,Wanted to give you a heads up that PO00492 is running behind. We had some equipment break down in the middle of your production run and had to pause everything while we got it fixed. Back up and running now but we lost about 9 days. Should ship by 02/14/2023. Sorry for the delay!
+COMM0114,2023-02-04,VEN018,from_vendor,Labor Shortage Impact,"Hi, wanted to give you a heads up that we're dealing with significant labor shortages right now. We're running at about 60% capacity which is impacting all orders including PO00493. Expect a delay of approximately 7 days. We're actively hiring but it's a tough market. Sorry for the inconvenience."
+COMM0115,2023-02-04,VEN018,from_vendor,Shipment Delay - PO00497,"Ugh, I have some frustrating news. The carrier we use just informed us they're completely backed up and can't pick up PO00497 until next week. This pushes your delivery out by about 3 days from what we originally quoted. I'm looking into alternative carriers but wanted to give you a heads up ASAP. Sorry!"
+COMM0116,2023-02-01,VEN014,from_vendor,System Migration Delay,We're in the middle of a system migration and it's not going smoothly. Order processing has been delayed across the board. PO00501 is affected and will be approximately 6 days late. I know this is our problem not yours. We'll have a credit applied to your account for the inconvenience.
+COMM0117,2023-01-24,VEN006,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT015 instead of MAT015. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0118,2023-01-25,VEN014,from_vendor,Urgent: Batch Issue,"Got some bad news - our QA team flagged batch 3939 after it had already shipped. The MAT006 in that batch has elevated moisture levels which could cause spoilage issues. Please pull it from your inventory ASAP. I know this is a pain, especially if you're running low. Let me know and we can expedite a replacement shipment."
+COMM0119,2023-01-25,VEN011,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0120,2023-01-25,VEN002,to_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0121,2023-01-26,VEN002,from_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0122,2023-01-27,VEN007,to_vendor,Quality Certificate,Attached please find the Q1 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0123,2023-01-27,VEN003,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0124,2023-01-28,VEN007,to_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0125,2023-01-29,VEN001,from_vendor,Product Recall Notification,"Dear Valued Customer,
+
+We are issuing a voluntary recall for MAT030 batch 5834 due to quality concerns identified during post-production testing. While there is no immediate safety risk, the product does not meet our quality standards. Please quarantine and dispose of any remaining inventory from this batch. Contact us at your earliest convenience to arrange credit. We apologize for any inconvenience.
+
+Best regards,
+Customer Care Team"
+COMM0126,2023-01-29,VEN010,to_vendor,Delivery Confirmation,Just confirming that PO86230 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0127,2023-01-29,VEN005,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0128,2023-01-30,VEN020,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT004 instead of MAT040. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0129,2023-01-31,VEN005,from_vendor,FW: Production Error,"---------- Forwarded message ---------
+Subject: Production Error - Batch 7681
+
+Production team reports that batch 7681 was manufactured with incorrect ingredient ratios. All MAT031 from this batch must be recalled.
+
+---
+Please dispose of any inventory from this batch. We'll credit your account and expedite replacement. Apologies for the error."
+COMM0130,2023-01-31,VEN012,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0131,2023-01-31,VEN004,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-9272. If you received this batch (shipped between 01/17 and 01/24), please quarantine immediately and contact us. Full details in attached notice."
+COMM0132,2023-02-01,VEN006,to_vendor,Delivery Confirmation,Just confirming that PO43945 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0133,2023-02-01,VEN016,to_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0134,2023-02-02,VEN019,from_vendor,Shelf Life Issue,"Hey, we need to talk about batch 8500. Our stability team just flagged it - the shelf life is going to be much shorter than we thought due to a processing issue. If you still have any MAT014 from that batch, it's probably already degraded. Please dispose and let me know the quantity. We'll make it right."
+COMM0135,2023-02-02,VEN006,from_vendor,RE: Batch 9638 Issue,"Just wanted to follow up on our conversation this morning. Yes, unfortunately we need you to dispose of batch 9638. The pH levels are off and it could affect your final product quality. I know this is inconvenient but we'd rather be safe. Credit will be on your next invoice. -Lisa"
+COMM0136,2023-02-02,VEN016,to_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0137,2023-02-03,VEN005,from_vendor,RE: Update,"Got it, thanks!"
+COMM0138,2023-02-04,VEN014,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0139,2023-02-05,VEN001,from_vendor,Quality Issue - Batch 5293,"Hi team, hope everyone is doing well! Just wanted to reach out about batch 5293 of MAT008. We noticed some inconsistencies during QA testing - nothing major but out of abundance of caution we recommend disposing of units from that batch. Let me know if you have questions! Best, Sarah"
+COMM0140,2023-02-05,VEN014,to_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0141,2023-02-06,VEN020,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0142,2023-02-06,VEN009,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0143,2023-02-07,VEN014,from_vendor,RE: Urgent - Batch 1760,Following up on my voicemail - we have a serious problem with batch 1760. The MAT047 was stored at incorrect temperatures during warehousing which has compromised quality. You need to dispose of any remaining inventory immediately. I'm expediting a replacement order at no charge. Call me if you have questions.
+COMM0144,2023-02-07,VEN007,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-4709. If you received this batch (shipped between 01/24 and 01/31), please quarantine immediately and contact us. Full details in attached notice."
+COMM0145,2023-02-07,VEN009,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0146,2023-02-08,VEN007,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0147,2023-02-08,VEN006,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0148,2023-02-09,VEN009,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0149,2023-02-09,VEN017,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0150,2023-02-10,VEN018,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0151,2023-02-11,VEN016,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0152,2023-02-12,VEN001,from_vendor,Urgent: Batch Issue,"Got some bad news - our QA team flagged batch 2813 after it had already shipped. The MAT020 in that batch has elevated moisture levels which could cause spoilage issues. Please pull it from your inventory ASAP. I know this is a pain, especially if you're running low. Let me know and we can expedite a replacement shipment."
+COMM0153,2023-02-12,VEN019,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0154,2023-02-12,VEN001,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0155,2023-02-13,VEN008,from_vendor,Delivery Confirmation,Just confirming that PO75129 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0156,2023-02-14,VEN006,from_vendor,FW: Recall Notice - MAT046,"---------- Forwarded message ---------
+From: QA Department
+Date: Tue, Feb 14, 2023
+Subject: Recall Notice
+
+Attention: Batch 7263 of MAT046 has failed our internal quality standards. All customers who received this batch should dispose of remaining inventory immediately. Contact customer service for replacement or refund."
+COMM0157,2023-02-14,VEN007,from_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-60393 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0158,2023-02-15,VEN019,from_vendor,RE: Your recent order,"Hi there, hope you're having a good week despite me about to make it worse :( We found a problem with batch 3771 of MAT010. Long story short - temperature control issue during production. The product is safe but quality is compromised. Need you to dispose of any remaining units. Full credit will be applied to your account. So sorry!"
+COMM0159,2023-02-15,VEN012,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0160,2023-02-15,VEN001,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0161,2023-02-16,VEN009,from_vendor,Quality Alert: MAT020,"QUALITY ALERT
+
+Date: 02/16/2023
+Product: MAT020
+Batch: 2941
+Issue: Microbial contamination detected
+Action: Immediate disposal required
+
+This is a precautionary measure. Please confirm disposal and provide disposal documentation for our records."
+COMM0162,2023-02-16,VEN013,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0163,2023-02-16,VEN006,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0164,2023-02-17,VEN018,to_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0165,2023-02-17,VEN016,to_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0166,2023-02-18,VEN016,from_vendor,RE: Product Quality Concern,"Following up on our call - after reviewing the lab results, we need you to pull batch 5188 from your inventory. The contamination levels are borderline but we don't want to take any chances. Credit memo will be issued within 48 hours. Sorry for the hassle!"
+COMM0167,2023-02-18,VEN015,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-2907. If you received this batch (shipped between 02/04 and 02/11), please quarantine immediately and contact us. Full details in attached notice."
+COMM0168,2023-02-19,VEN001,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0169,2023-02-20,VEN007,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0170,2023-02-20,VEN003,to_vendor,RE: Quick question,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0171,2023-02-21,VEN007,from_vendor,Critical Quality Issue,CRITICAL: Batch 2434 of MAT020 has failed our quality standards for purity. Testing revealed trace amounts of an undeclared ingredient. This is a serious issue and we need immediate disposal of all units from this batch. Full investigation underway. Please call me directly at 555-0199. -Robert
+COMM0172,2023-02-21,VEN008,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0173,2023-02-21,VEN010,from_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0174,2023-02-22,VEN001,from_vendor,URGENT - Quality Alert,"URGENT - Quality Alert
+
+Batch: 9484
+Material: MAT012
+Issue: Failed moisture content test
+Action Required: Quarantine and dispose
+
+Please confirm receipt.
+
+Regards,
+Quality Assurance Team"
+COMM0175,2023-02-22,VEN007,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0176,2023-02-23,VEN012,from_vendor,Quality Control Alert,Attention: We have identified a quality issue with MAT003 batch 8902 shipped on February 19. Our quality control team has determined that this batch does not meet our standards. Please remove from inventory and dispose according to your standard procedures. Replacement shipment can be expedited if needed.
+COMM0177,2023-02-23,VEN009,to_vendor,RE: Update,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0178,2023-02-23,VEN018,to_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-85226 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0179,2023-02-24,VEN010,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0180,2023-02-24,VEN003,from_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0181,2023-02-25,VEN002,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0182,2023-02-26,VEN012,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0183,2023-02-27,VEN016,from_vendor,RE: Your recent order,"Hi there, hope you're having a good week despite me about to make it worse :( We found a problem with batch 6845 of MAT036. Long story short - temperature control issue during production. The product is safe but quality is compromised. Need you to dispose of any remaining units. Full credit will be applied to your account. So sorry!"
+COMM0184,2023-02-27,VEN007,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0185,2023-02-28,VEN007,from_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-54213 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0186,2023-02-28,VEN011,to_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0187,2023-03-01,VEN020,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0188,2023-03-02,VEN015,to_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0189,2023-03-02,VEN008,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0190,2023-03-03,VEN007,to_vendor,Quality Certificate,Attached please find the Q1 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0191,2023-03-04,VEN008,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0192,2023-03-05,VEN006,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-1360. If you received this batch (shipped between 02/19 and 02/26), please quarantine immediately and contact us. Full details in attached notice."
+COMM0193,2023-03-05,VEN004,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT035 instead of MAT044. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0194,2023-03-06,VEN018,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0195,2023-03-07,VEN001,from_vendor,Quality Certificate,Attached please find the Q3 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0196,2023-03-08,VEN002,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0197,2023-03-08,VEN017,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-1562. If you received this batch (shipped between 02/22 and 03/01), please quarantine immediately and contact us. Full details in attached notice."
+COMM0198,2023-03-09,VEN019,to_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-40766 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0199,2023-03-10,VEN017,from_vendor,RE: Urgent - Batch 3401,Following up on my voicemail - we have a serious problem with batch 3401. The MAT035 was stored at incorrect temperatures during warehousing which has compromised quality. You need to dispose of any remaining inventory immediately. I'm expediting a replacement order at no charge. Call me if you have questions.
+COMM0200,2023-03-10,VEN001,from_vendor,Delivery Confirmation,Just confirming that PO14071 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0201,2023-03-10,VEN001,to_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0202,2023-03-11,VEN013,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0203,2023-03-11,VEN010,to_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0204,2023-03-12,VEN012,from_vendor,URGENT - Quality Alert,"URGENT - Quality Alert
+
+Batch: 8420
+Material: MAT021
+Issue: Failed moisture content test
+Action Required: Quarantine and dispose
+
+Please confirm receipt.
+
+Regards,
+Quality Assurance Team"
+COMM0205,2023-03-12,VEN010,to_vendor,Quality Certificate,Attached please find the Q3 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0206,2023-03-12,VEN015,to_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-7941. If you received this batch (shipped between 02/26 and 03/05), please quarantine immediately and contact us. Full details in attached notice."
+COMM0207,2023-03-13,VEN017,from_vendor,Shelf Life Issue,"Hey, we need to talk about batch 8669. Our stability team just flagged it - the shelf life is going to be much shorter than we thought due to a processing issue. If you still have any MAT038 from that batch, it's probably already degraded. Please dispose and let me know the quantity. We'll make it right."
+COMM0208,2023-03-13,VEN019,from_vendor,RE: Your order,"Got it, thanks!"
+COMM0209,2023-03-13,VEN012,from_vendor,RE: Follow up,"Got it, thanks!"
+COMM0210,2023-03-14,VEN020,from_vendor,URGENT: Do Not Use,"URGENT MESSAGE
+
+DO NOT USE batch 8817 of MAT003. We have discovered a labeling error - the batch contains a different formulation than indicated. Using this product could result in production failures. Please confirm immediate quarantine. Emergency replacement available."
+COMM0211,2023-03-14,VEN007,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0212,2023-03-14,VEN016,from_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0213,2023-03-15,VEN019,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0214,2023-03-15,VEN006,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0215,2023-03-16,VEN005,from_vendor,Product Quality Issue - 03/16/2023,"Quick update on a situation we're dealing with: batch 6663 of MAT027 has been flagged for quality issues. Our lab found some inconsistencies that put it outside our acceptable range. If you have any inventory from this batch, please quarantine it and let us know the quantity. We'll get a replacement order processed right away. Thanks for understanding!"
+COMM0216,2023-03-16,VEN010,from_vendor,Contamination Alert,"Hi, we have a situation. Batch 7017 (MAT029) was produced on equipment that wasn't properly cleaned after running an allergen-containing product. If you have any of this batch, it needs to be disposed of immediately for allergen cross-contamination concerns. So sorry - this should never have happened."
+COMM0217,2023-03-16,VEN020,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT048 instead of MAT013. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0218,2023-03-16,VEN006,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-1807. If you received this batch (shipped between 03/02 and 03/09), please quarantine immediately and contact us. Full details in attached notice."
+COMM0219,2023-03-17,VEN020,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0220,2023-03-18,VEN010,from_vendor,Important - Please Read,"Hi! I hate to be the bearer of bad news but we discovered an issue during our routine quality audit. Batch 2741 that we shipped last week didn't meet our specs for MAT024. Can you check if you still have any of it? If so, please don't use it and we'll arrange pickup. Really sorry about this!"
+COMM0221,2023-03-18,VEN005,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0222,2023-03-19,VEN007,from_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0223,2023-03-20,VEN008,from_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-61393 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0224,2023-03-20,VEN018,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0225,2023-03-21,VEN012,from_vendor,RE: Lab Results,Got the lab results back and unfortunately batch 5501 failed on multiple parameters. The MAT019 has elevated microbial counts and reduced activity. We need you to pull it from inventory ASAP. I'll have our team rush a replacement order. Really sorry about this mess.
+COMM0226,2023-03-21,VEN004,from_vendor,Important - Please Read,"Hi! I hate to be the bearer of bad news but we discovered an issue during our routine quality audit. Batch 2248 that we shipped last week didn't meet our specs for MAT036. Can you check if you still have any of it? If so, please don't use it and we'll arrange pickup. Really sorry about this!"
+COMM0227,2023-03-21,VEN016,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #5632 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0228,2023-03-22,VEN006,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0229,2023-03-22,VEN007,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-3246. If you received this batch (shipped between 03/08 and 03/15), please quarantine immediately and contact us. Full details in attached notice."
+COMM0230,2023-03-23,VEN008,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0231,2023-03-24,VEN004,from_vendor,Product Recall Notification,"Dear Valued Customer,
+
+We are issuing a voluntary recall for MAT046 batch 5745 due to quality concerns identified during post-production testing. While there is no immediate safety risk, the product does not meet our quality standards. Please quarantine and dispose of any remaining inventory from this batch. Contact us at your earliest convenience to arrange credit. We apologize for any inconvenience.
+
+Best regards,
+Customer Care Team"
+COMM0232,2023-03-24,VEN018,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0233,2023-03-24,VEN006,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0234,2023-03-25,VEN019,from_vendor,RE: Product Quality Concern,"Following up on our call - after reviewing the lab results, we need you to pull batch 2429 from your inventory. The contamination levels are borderline but we don't want to take any chances. Credit memo will be issued within 48 hours. Sorry for the hassle!"
+COMM0235,2023-03-25,VEN016,from_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-60695 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0236,2023-03-25,VEN012,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0237,2023-03-26,VEN005,from_vendor,Batch 2572 - Action Required,"Hey, just got off the phone with our production manager. Turns out batch 2572 of the MAT008 we sent you has some quality issues. Nothing dangerous but it won't perform as expected. We need you to scrap whatever you have left from that batch. I'll process a credit today. Let me know how much you had to dispose of."
+COMM0238,2023-03-26,VEN017,from_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0239,2023-03-27,VEN001,to_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0240,2023-03-28,VEN012,from_vendor,RE: Batch 8130 Issue,"Just wanted to follow up on our conversation this morning. Yes, unfortunately we need you to dispose of batch 8130. The pH levels are off and it could affect your final product quality. I know this is inconvenient but we'd rather be safe. Credit will be on your next invoice. -Lisa"
+COMM0241,2023-03-28,VEN016,from_vendor,RE: Update,"Got it, thanks!"
+COMM0242,2023-03-29,VEN019,from_vendor,Delivery Confirmation,Just confirming that PO52903 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0243,2023-03-29,VEN008,to_vendor,Delivery Confirmation,Just confirming that PO79074 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0244,2023-03-30,VEN001,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0245,2023-03-30,VEN010,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0246,2023-03-31,VEN012,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0247,2023-04-01,VEN005,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0248,2023-04-01,VEN019,to_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0249,2023-04-02,VEN009,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0250,2023-04-02,VEN007,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0251,2023-04-03,VEN016,from_vendor,Quality Control Alert,Attention: We have identified a quality issue with MAT050 batch 9370 shipped on March 29. Our quality control team has determined that this batch does not meet our standards. Please remove from inventory and dispose according to your standard procedures. Replacement shipment can be expedited if needed.
+COMM0252,2023-04-03,VEN014,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0253,2023-04-03,VEN003,from_vendor,Quality Certificate,Attached please find the Q1 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0254,2023-04-04,VEN016,from_vendor,FW: QA Failed - Batch 8263,"Forwarding this from our QA department - apparently batch 8263 didn't pass final inspection but somehow still got shipped out. If you received MAT022 from that batch, please don't use it. We're investigating how this happened. In the meantime, let us know what you need to do to make this right. -Tom"
+COMM0255,2023-04-04,VEN001,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0256,2023-04-04,VEN002,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0257,2023-04-05,VEN007,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-1786. If you received this batch (shipped between 03/22 and 03/29), please quarantine immediately and contact us. Full details in attached notice."
+COMM0258,2023-04-05,VEN017,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0259,2023-04-06,VEN005,from_vendor,Packaging Defect Notice,We've discovered a packaging defect with batch 3925 of MAT009. The seals are compromised which means the product may have been exposed to moisture/air. Product integrity cannot be guaranteed. Please dispose of all units from this batch. Replacement shipment departing today. Sorry for the inconvenience!
+COMM0260,2023-04-06,VEN003,to_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0261,2023-04-06,VEN019,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0262,2023-04-07,VEN011,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0263,2023-04-08,VEN013,from_vendor,Quality Failure Notification,"Dear Customer,
+
+Our post-shipment testing has revealed that MAT018 batch 7199 does not meet specification requirements. Specifically, the particle size distribution is outside acceptable limits. Please quarantine and dispose of this material. A replacement order has already been expedited. Reference #QF-3615."
+COMM0264,2023-04-08,VEN013,from_vendor,Immediate Action Required,Hi - this is urgent. We just discovered that batch 9604 (MAT034) was contaminated during packaging. It's not a safety issue but it will affect product performance. Please check your inventory immediately and dispose of any units from this batch. Call me directly if you have questions or need a rush replacement. My cell is 555-0123. -David
+COMM0265,2023-04-08,VEN001,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0266,2023-04-09,VEN014,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0267,2023-04-10,VEN015,from_vendor,Quality Failure Notification,"Dear Customer,
+
+Our post-shipment testing has revealed that MAT014 batch 4411 does not meet specification requirements. Specifically, the particle size distribution is outside acceptable limits. Please quarantine and dispose of this material. A replacement order has already been expedited. Reference #QF-2537."
+COMM0268,2023-04-10,VEN013,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0269,2023-04-11,VEN002,from_vendor,Voluntary Recall - Batch 5141,"We are initiating a voluntary recall of MAT002 batch 5141 due to potential quality issues identified during routine monitoring. While no customer complaints have been received, we are taking proactive action. Please dispose of any remaining inventory and contact us for replacement product. Thank you for your cooperation."
+COMM0270,2023-04-11,VEN011,to_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0271,2023-04-12,VEN005,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0272,2023-04-12,VEN007,from_vendor,RE: Checking in,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0273,2023-04-13,VEN017,from_vendor,Quality Deviation Report,"Quality Deviation Report #QDR-1713
+
+Product: MAT043
+Batch: 8127
+Deviation: Out of specification for viscosity
+Customer Action Required: Dispose of all units
+Credit: Will be issued upon confirmation
+
+Please acknowledge receipt of this notice within 24 hours."
+COMM0274,2023-04-13,VEN006,from_vendor,Safety Alert - MAT007,"SAFETY ALERT: Batch 5956 may contain foreign material contamination. While we have no reports of incidents, we are issuing a precautionary recall. Please remove all MAT007 from batch 5956 from your facility immediately. Replacement product will ship within 24 hours at no charge."
+COMM0275,2023-04-13,VEN013,to_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0276,2023-04-13,VEN016,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0277,2023-04-14,VEN009,from_vendor,Quick question about recent shipment,Hey there! Quick heads up - we had a small issue with one of our production runs last week. The batch that shipped to you around the 09th might have some quality concerns. Can you check your inventory for MAT030 batch 3810? Probably fine but better safe than sorry. Thanks!
+COMM0278,2023-04-14,VEN004,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0279,2023-04-14,VEN001,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0280,2023-04-15,VEN020,from_vendor,Quality Alert: MAT013,"QUALITY ALERT
+
+Date: 04/15/2023
+Product: MAT013
+Batch: 2460
+Issue: Microbial contamination detected
+Action: Immediate disposal required
+
+This is a precautionary measure. Please confirm disposal and provide disposal documentation for our records."
+COMM0281,2023-04-15,VEN019,from_vendor,URGENT: Do Not Use,"URGENT MESSAGE
+
+DO NOT USE batch 6087 of MAT015. We have discovered a labeling error - the batch contains a different formulation than indicated. Using this product could result in production failures. Please confirm immediate quarantine. Emergency replacement available."
+COMM0282,2023-04-15,VEN004,from_vendor,Product Hold Notice,"PRODUCT HOLD
+Batch: 7110
+Product: MAT029
+Reason: Failed stability testing
+Action: Dispose immediately
+
+This batch has shown accelerated degradation in stability testing. Product quality cannot be guaranteed. Please confirm disposal and quantity for credit processing."
+COMM0283,2023-04-15,VEN009,to_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0284,2023-04-15,VEN010,to_vendor,RE: Quick question,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0285,2023-04-16,VEN008,from_vendor,Critical Quality Issue,CRITICAL: Batch 8753 of MAT012 has failed our quality standards for purity. Testing revealed trace amounts of an undeclared ingredient. This is a serious issue and we need immediate disposal of all units from this batch. Full investigation underway. Please call me directly at 555-0199. -Robert
+COMM0286,2023-04-16,VEN019,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0287,2023-04-16,VEN011,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0288,2023-04-17,VEN007,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0289,2023-04-17,VEN010,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #9356 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0290,2023-04-18,VEN015,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0291,2023-04-19,VEN020,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0292,2023-04-19,VEN014,to_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0293,2023-04-20,VEN001,to_vendor,Delivery Confirmation,Just confirming that PO43260 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0294,2023-04-21,VEN017,to_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0295,2023-04-21,VEN012,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0296,2023-04-22,VEN019,from_vendor,Contamination Alert,"Hi, we have a situation. Batch 3425 (MAT034) was produced on equipment that wasn't properly cleaned after running an allergen-containing product. If you have any of this batch, it needs to be disposed of immediately for allergen cross-contamination concerns. So sorry - this should never have happened."
+COMM0297,2023-04-22,VEN014,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0298,2023-04-22,VEN009,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0299,2023-04-23,VEN006,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0300,2023-04-23,VEN005,from_vendor,Delivery Confirmation,Just confirming that PO32549 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0301,2023-04-24,VEN002,from_vendor,Quality Deviation Report,"Quality Deviation Report #QDR-3803
+
+Product: MAT044
+Batch: 8078
+Deviation: Out of specification for viscosity
+Customer Action Required: Dispose of all units
+Credit: Will be issued upon confirmation
+
+Please acknowledge receipt of this notice within 24 hours."
+COMM0302,2023-04-24,VEN020,from_vendor,Batch Rejection Notice,This is to inform you that batch 6819 of MAT016 has been rejected by our quality team. The product exhibits off-color characteristics that indicate potential oxidation. Please dispose of all units and contact accounting for credit processing. We apologize for shipping defective product.
+COMM0303,2023-04-24,VEN010,to_vendor,RE: Follow up,"Got it, thanks!"
+COMM0304,2023-04-24,VEN007,to_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0305,2023-04-25,VEN008,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0306,2023-04-26,VEN003,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0307,2023-04-27,VEN003,from_vendor,Packaging Defect Notice,We've discovered a packaging defect with batch 4974 of MAT009. The seals are compromised which means the product may have been exposed to moisture/air. Product integrity cannot be guaranteed. Please dispose of all units from this batch. Replacement shipment departing today. Sorry for the inconvenience!
+COMM0308,2023-04-27,VEN001,from_vendor,FW: QA Failed - Batch 6651,"Forwarding this from our QA department - apparently batch 6651 didn't pass final inspection but somehow still got shipped out. If you received MAT015 from that batch, please don't use it. We're investigating how this happened. In the meantime, let us know what you need to do to make this right. -Tom"
+COMM0309,2023-04-27,VEN020,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #1170 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0310,2023-04-28,VEN019,from_vendor,Batch 5277 - Action Required,"Hey, just got off the phone with our production manager. Turns out batch 5277 of the MAT019 we sent you has some quality issues. Nothing dangerous but it won't perform as expected. We need you to scrap whatever you have left from that batch. I'll process a credit today. Let me know how much you had to dispose of."
+COMM0311,2023-04-28,VEN003,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0312,2023-04-29,VEN015,to_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0313,2023-04-30,VEN011,from_vendor,FW: Production Error,"---------- Forwarded message ---------
+Subject: Production Error - Batch 4030
+
+Production team reports that batch 4030 was manufactured with incorrect ingredient ratios. All MAT042 from this batch must be recalled.
+
+---
+Please dispose of any inventory from this batch. We'll credit your account and expedite replacement. Apologies for the error."
+COMM0314,2023-04-30,VEN008,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0315,2023-05-01,VEN008,from_vendor,Immediate Action Required,Hi - this is urgent. We just discovered that batch 9966 (MAT035) was contaminated during packaging. It's not a safety issue but it will affect product performance. Please check your inventory immediately and dispose of any units from this batch. Call me directly if you have questions or need a rush replacement. My cell is 555-0123. -David
+COMM0316,2023-05-01,VEN005,to_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0317,2023-05-01,VEN005,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0318,2023-05-02,VEN019,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0319,2023-05-03,VEN003,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0320,2023-05-03,VEN009,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0321,2023-05-04,VEN012,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0322,2023-05-05,VEN001,from_vendor,RECALL - MAT001 Batch 7620,"PRODUCT RECALL NOTICE
+
+**Batch Number:** 7620
+**Product:** MAT001
+**Reason:** Failed quality inspection
+**Action Required:** Dispose of all units from this batch
+**Credit:** Full credit will be issued
+
+Please respond to confirm receipt of this notice and disposal of affected inventory. Thank you for your cooperation."
+COMM0323,2023-05-05,VEN015,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0324,2023-05-06,VEN020,from_vendor,Product Quality Issue - 05/06/2023,"Quick update on a situation we're dealing with: batch 6467 of MAT033 has been flagged for quality issues. Our lab found some inconsistencies that put it outside our acceptable range. If you have any inventory from this batch, please quarantine it and let us know the quantity. We'll get a replacement order processed right away. Thanks for understanding!"
+COMM0325,2023-05-06,VEN018,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0326,2023-05-07,VEN017,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT023 instead of MAT018. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0327,2023-05-07,VEN019,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0328,2023-05-08,VEN008,from_vendor,Safety Alert - MAT034,"SAFETY ALERT: Batch 3772 may contain foreign material contamination. While we have no reports of incidents, we are issuing a precautionary recall. Please remove all MAT034 from batch 3772 from your facility immediately. Replacement product will ship within 24 hours at no charge."
+COMM0329,2023-05-08,VEN017,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0330,2023-05-08,VEN018,to_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0331,2023-05-09,VEN020,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0332,2023-05-09,VEN002,to_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0333,2023-05-10,VEN005,to_vendor,RE: Checking in,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0334,2023-05-11,VEN004,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0335,2023-05-11,VEN001,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0336,2023-05-12,VEN011,to_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0337,2023-05-12,VEN004,from_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0338,2023-05-13,VEN020,from_vendor,RECALL - MAT025 Batch 5540,"PRODUCT RECALL NOTICE
+
+**Batch Number:** 5540
+**Product:** MAT025
+**Reason:** Failed quality inspection
+**Action Required:** Dispose of all units from this batch
+**Credit:** Full credit will be issued
+
+Please respond to confirm receipt of this notice and disposal of affected inventory. Thank you for your cooperation."
+COMM0339,2023-05-13,VEN006,to_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0340,2023-05-14,VEN010,from_vendor,RE: Lab Results,Got the lab results back and unfortunately batch 9338 failed on multiple parameters. The MAT004 has elevated microbial counts and reduced activity. We need you to pull it from inventory ASAP. I'll have our team rush a replacement order. Really sorry about this mess.
+COMM0341,2023-05-14,VEN020,from_vendor,Voluntary Recall - Batch 4923,"We are initiating a voluntary recall of MAT019 batch 4923 due to potential quality issues identified during routine monitoring. While no customer complaints have been received, we are taking proactive action. Please dispose of any remaining inventory and contact us for replacement product. Thank you for your cooperation."
+COMM0342,2023-05-14,VEN005,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT021 instead of MAT040. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0343,2023-05-14,VEN016,from_vendor,RE: Your order,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0344,2023-05-15,VEN017,from_vendor,Delivery Confirmation,Just confirming that PO43406 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0345,2023-05-16,VEN013,to_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0346,2023-05-16,VEN006,to_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0347,2023-05-17,VEN013,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0348,2023-05-17,VEN015,to_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0349,2023-05-18,VEN017,from_vendor,Delivery Confirmation,Just confirming that PO15815 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0350,2023-05-18,VEN010,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0351,2023-05-19,VEN008,from_vendor,Batch Rejection Notice,This is to inform you that batch 9660 of MAT021 has been rejected by our quality team. The product exhibits off-color characteristics that indicate potential oxidation. Please dispose of all units and contact accounting for credit processing. We apologize for shipping defective product.
+COMM0352,2023-05-19,VEN007,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0353,2023-05-19,VEN017,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0354,2023-05-20,VEN007,from_vendor,Quick question about recent shipment,Hey there! Quick heads up - we had a small issue with one of our production runs last week. The batch that shipped to you around the 15th might have some quality concerns. Can you check your inventory for MAT020 batch 8127? Probably fine but better safe than sorry. Thanks!
+COMM0355,2023-05-20,VEN017,from_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0356,2023-05-21,VEN010,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0357,2023-05-21,VEN011,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT011 instead of MAT035. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0358,2023-05-22,VEN001,to_vendor,RE: Update,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0359,2023-05-22,VEN011,to_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0360,2023-05-23,VEN006,from_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0361,2023-05-24,VEN018,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0362,2023-05-24,VEN012,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0363,2023-05-25,VEN005,from_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0364,2023-05-25,VEN006,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0365,2023-05-26,VEN003,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0366,2023-05-27,VEN011,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0367,2023-05-27,VEN019,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0368,2023-05-28,VEN002,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-2505. If you received this batch (shipped between 05/14 and 05/21), please quarantine immediately and contact us. Full details in attached notice."
+COMM0369,2023-05-28,VEN002,to_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT030 instead of MAT044. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0370,2023-05-29,VEN011,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #6989 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0371,2023-05-30,VEN008,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0372,2023-05-31,VEN005,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0373,2023-05-31,VEN014,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0374,2023-06-01,VEN018,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0375,2023-06-01,VEN017,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0376,2023-06-02,VEN004,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0377,2023-06-03,VEN009,to_vendor,RE: Checking in,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0378,2023-06-04,VEN005,from_vendor,RE: Your order,"Got it, thanks!"
+COMM0379,2023-06-05,VEN002,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-8210. If you received this batch (shipped between 05/22 and 05/29), please quarantine immediately and contact us. Full details in attached notice."
+COMM0380,2023-06-05,VEN003,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0381,2023-06-06,VEN011,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0382,2023-06-07,VEN001,to_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0383,2023-06-07,VEN010,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0384,2023-06-08,VEN013,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0385,2023-06-09,VEN010,to_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0386,2023-06-10,VEN002,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0387,2023-06-10,VEN015,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0388,2023-06-11,VEN019,from_vendor,RE: Quick question,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0389,2023-06-12,VEN019,to_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-3107. If you received this batch (shipped between 05/29 and 06/05), please quarantine immediately and contact us. Full details in attached notice."
+COMM0390,2023-06-13,VEN007,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0391,2023-06-13,VEN011,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0392,2023-06-14,VEN019,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT017 instead of MAT035. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0393,2023-06-15,VEN014,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0394,2023-06-15,VEN014,to_vendor,Delivery Confirmation,Just confirming that PO89856 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0395,2023-06-16,VEN018,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0396,2023-06-17,VEN017,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0397,2023-06-17,VEN016,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0398,2023-06-18,VEN007,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0399,2023-06-18,VEN018,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0400,2023-06-19,VEN007,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0401,2023-06-19,VEN017,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0402,2023-06-20,VEN002,from_vendor,RE: Update,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0403,2023-06-20,VEN010,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0404,2023-06-21,VEN005,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0405,2023-06-21,VEN006,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0406,2023-06-22,VEN020,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0407,2023-06-22,VEN016,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0408,2023-06-23,VEN003,to_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0409,2023-06-24,VEN007,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT010 instead of MAT035. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0410,2023-06-24,VEN019,from_vendor,Quality Certificate,Attached please find the Q1 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0411,2023-06-25,VEN001,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0412,2023-06-25,VEN001,to_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0413,2023-06-26,VEN015,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0414,2023-06-26,VEN016,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0415,2023-06-27,VEN013,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0416,2023-06-27,VEN019,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0417,2023-06-28,VEN007,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0418,2023-06-29,VEN008,from_vendor,New Contact Info,Hi everyone! Quick update - I've moved to a new role and Sarah Johnson will be your main point of contact going forward. She's great and I'm leaving you in good hands. My new email is below if you ever need to reach me. Best of luck!
+COMM0419,2023-06-30,VEN002,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #4069 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0420,2023-06-30,VEN001,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0421,2023-07-01,VEN014,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-5644. If you received this batch (shipped between 06/17 and 06/24), please quarantine immediately and contact us. Full details in attached notice."
+COMM0422,2023-07-01,VEN006,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0423,2023-07-02,VEN009,from_vendor,RE: Follow up,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0424,2023-07-02,VEN014,to_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0425,2023-07-03,VEN009,from_vendor,Quality Certificate,Attached please find the Q3 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0426,2023-07-04,VEN007,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0427,2023-07-05,VEN014,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0428,2023-07-06,VEN011,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0429,2023-07-07,VEN012,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0430,2023-07-08,VEN018,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0431,2023-07-09,VEN013,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #9363 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0432,2023-07-10,VEN009,from_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0433,2023-07-10,VEN003,from_vendor,RE: Quick question,"Got it, thanks!"
+COMM0434,2023-07-11,VEN009,from_vendor,Delivery Confirmation,Just confirming that PO80815 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0435,2023-07-11,VEN010,from_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0436,2023-07-12,VEN014,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0437,2023-07-13,VEN018,to_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT011 instead of MAT003. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0438,2023-07-14,VEN006,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0439,2023-07-15,VEN009,to_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0440,2023-07-16,VEN019,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0441,2023-07-17,VEN012,to_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0442,2023-07-18,VEN001,to_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0443,2023-07-18,VEN003,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0444,2023-07-19,VEN009,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0445,2023-07-20,VEN010,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0446,2023-07-21,VEN012,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0447,2023-07-21,VEN004,to_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0448,2023-07-22,VEN002,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0449,2023-07-22,VEN010,to_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-54481 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0450,2023-07-23,VEN016,to_vendor,Quality Certificate,Attached please find the Q2 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0451,2023-07-24,VEN004,to_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0452,2023-07-24,VEN019,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT045 instead of MAT024. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0453,2023-07-25,VEN007,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0454,2023-07-25,VEN012,from_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-36126 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0455,2023-07-26,VEN011,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0456,2023-07-27,VEN001,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0457,2023-07-27,VEN003,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0458,2023-07-28,VEN008,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0459,2023-07-28,VEN015,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT049 instead of MAT006. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0460,2023-07-29,VEN013,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0461,2023-07-30,VEN008,from_vendor,Delivery Confirmation,Just confirming that PO50323 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0462,2023-07-30,VEN012,from_vendor,Quality Certificate,Attached please find the Q2 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0463,2023-07-31,VEN008,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT032 instead of MAT015. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0464,2023-08-01,VEN016,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0465,2023-08-02,VEN019,from_vendor,RE: Update,"Got it, thanks!"
+COMM0466,2023-08-02,VEN014,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0467,2023-08-03,VEN017,to_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0468,2023-08-03,VEN017,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0469,2023-08-04,VEN001,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0470,2023-08-05,VEN006,to_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-2236. If you received this batch (shipped between 07/22 and 07/29), please quarantine immediately and contact us. Full details in attached notice."
+COMM0471,2023-08-06,VEN004,to_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-8791. If you received this batch (shipped between 07/23 and 07/30), please quarantine immediately and contact us. Full details in attached notice."
+COMM0472,2023-08-07,VEN010,from_vendor,RE: Checking in,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0473,2023-08-08,VEN001,to_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0474,2023-08-08,VEN003,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0475,2023-08-09,VEN003,to_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT004 instead of MAT045. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0476,2023-08-10,VEN011,from_vendor,RE: Checking in,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0477,2023-08-10,VEN009,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0478,2023-08-11,VEN004,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #8346 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0479,2023-08-12,VEN013,to_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0480,2023-08-13,VEN020,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0481,2023-08-14,VEN004,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0482,2023-08-14,VEN010,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0483,2023-08-15,VEN006,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0484,2023-08-15,VEN002,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0485,2023-08-16,VEN013,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0486,2023-08-17,VEN005,from_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0487,2023-08-17,VEN016,to_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0488,2023-08-18,VEN018,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0489,2023-08-19,VEN011,to_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0490,2023-08-20,VEN016,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0491,2023-08-21,VEN004,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0492,2023-08-21,VEN003,from_vendor,RE: Checking in,"Got it, thanks!"
+COMM0493,2023-08-22,VEN014,from_vendor,Delivery Confirmation,Just confirming that PO55623 was delivered successfully yesterday. Driver noted no issues. Let us know if there are any problems with the shipment!
+COMM0494,2023-08-22,VEN018,from_vendor,RE: Last week,Thanks for the quick turnaround on that! Really appreciate it. Talk soon.
+COMM0495,2023-08-23,VEN006,to_vendor,Payment Reminder,Hi! Hope all is well. I'm just following up on invoice #INV-80237 from last month. It's a bit overdue and I wanted to make sure it didn't get lost in the shuffle. Can you check on the status? Thanks so much!
+COMM0496,2023-08-24,VEN013,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0497,2023-08-24,VEN002,to_vendor,Quality Certificate,Attached please find the Q3 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0498,2023-08-25,VEN014,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0499,2023-08-25,VEN014,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0500,2023-08-26,VEN007,from_vendor,RE: Update,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0501,2023-08-27,VEN011,to_vendor,Quality Certificate,Attached please find the Q2 quality certifications and lab reports for your records. Everything passed with flying colors. Let me know if you need anything else for your compliance files.
+COMM0502,2023-08-28,VEN018,from_vendor,RE: Follow up,"Got it, thanks!"
+COMM0503,2023-08-29,VEN013,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT020 instead of MAT010. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0504,2023-08-30,VEN004,from_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0505,2023-08-30,VEN001,from_vendor,RE: Follow up,"Hey, did you get my voicemail from yesterday? Give me a call when you have a chance. Thanks!"
+COMM0506,2023-08-31,VEN020,to_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0507,2023-09-01,VEN002,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0508,2023-09-02,VEN003,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0509,2023-09-03,VEN003,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0510,2023-09-03,VEN005,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0511,2023-09-04,VEN010,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0512,2023-09-04,VEN015,from_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0513,2023-09-05,VEN006,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0514,2023-09-06,VEN015,to_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"
+COMM0515,2023-09-07,VEN003,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0516,2023-09-07,VEN019,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0517,2023-09-08,VEN009,from_vendor,RE: Question about order,Let me check with the warehouse and get back to you this afternoon.
+COMM0518,2023-09-09,VEN003,to_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT045 instead of MAT024. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0519,2023-09-10,VEN003,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0520,2023-09-10,VEN009,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0521,2023-09-11,VEN008,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0522,2023-09-11,VEN008,from_vendor,Price Update,Hi there! Just a heads up that we're adjusting our pricing structure starting next quarter. Nothing dramatic - mostly just keeping pace with market conditions. I'll send over the updated rate sheet by end of week. Let me know if you want to hop on a call to discuss. Cheers!
+COMM0523,2023-09-12,VEN008,from_vendor,Trade Show,Will you be at the National Bakery Expo next month? We'll have a booth (#347) and would love to connect in person. Let me know if you're going!
+COMM0524,2023-09-13,VEN014,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0525,2023-09-13,VEN010,to_vendor,Thank You,Just wanted to say thanks for being such a great customer! We really value your business and partnership. Looking forward to another great year working together.
+COMM0526,2023-09-14,VEN020,from_vendor,Sustainability Report,Attached is our 2023 Sustainability Report. We've made some great progress on our environmental goals and thought you'd like to see the results. Proud of what we've accomplished!
+COMM0527,2023-09-14,VEN007,from_vendor,Urgent: Recall,"URGENT - We've identified a potential contamination issue with batch B-1243. If you received this batch (shipped between 08/31 and 09/07), please quarantine immediately and contact us. Full details in attached notice."
+COMM0528,2023-09-15,VEN013,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0529,2023-09-16,VEN017,from_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0530,2023-09-16,VEN004,from_vendor,Account Review,"Hey! It's been a while since we've connected. Would love to schedule a quarterly business review to go over your account, discuss any concerns, and see if there are ways we can better support you. How does next Tuesday look?"
+COMM0531,2023-09-17,VEN004,from_vendor,RE: Your order,"Got it, thanks!"
+COMM0532,2023-09-18,VEN016,from_vendor,Capacity Alert,"Quick heads up that we're running at near full capacity right now due to high seasonal demand. If you have any large orders coming up in the next few weeks, please give us as much advance notice as possible so we can plan accordingly."
+COMM0533,2023-09-19,VEN013,from_vendor,Price Negotiation,I talked to my manager about your request for better pricing on the bulk flour orders. We can do 8% off if you commit to a 6-month contract at minimum 5000 units/month. Does that work for you?
+COMM0534,2023-09-20,VEN015,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0535,2023-09-20,VEN013,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0536,2023-09-21,VEN015,from_vendor,Weather Advisory,Heads up - there's a major storm system moving through the midwest this week which might impact delivery schedules. We're monitoring closely and will keep you updated if your orders are affected.
+COMM0537,2023-09-21,VEN004,to_vendor,Survey Request,We're always looking to improve! Would you mind taking 2 minutes to fill out our customer satisfaction survey? Your feedback really helps us serve you better. Link: [survey link]. Thanks in advance!
+COMM0538,2023-09-22,VEN013,to_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0539,2023-09-22,VEN012,to_vendor,New Rep Introduction,Hi! My name is Alex and I'm the new account manager for your region. Really excited to work with you! I've been reviewing your account and would love to set up an intro call. What's your availability like next week?
+COMM0540,2023-09-23,VEN015,from_vendor,New Product Line,"EXCITING NEWS! We've just launched our new organic product line and I think you're going to love it. Premium quality, competitive pricing, and all the certifications you need. Want to schedule a tasting? Let me know! -Jennifer"
+COMM0541,2023-09-24,VEN013,to_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0542,2023-09-24,VEN011,from_vendor,RE: Checking in,"Got it, thanks!"
+COMM0543,2023-09-25,VEN018,from_vendor,Contract Renewal,Your annual contract is coming up for renewal in 60 days. Let's touch base soon to discuss terms for next year. I think we can work out something even better than your current agreement!
+COMM0544,2023-09-25,VEN002,from_vendor,Shipping Error,"Ugh, so sorry but we made a mistake on your last shipment - sent you 500 units of MAT044 instead of MAT042. Can we arrange a swap? Our driver can pick up the wrong items when he delivers the correct ones."
+COMM0545,2023-09-26,VEN017,to_vendor,Sample Request Follow-up,Hi! Just checking in on those samples we sent last week. Have you had a chance to test them out? Would love to hear your thoughts and see if it's something you'd want to add to your regular orders.
+COMM0546,2023-09-26,VEN004,from_vendor,Holiday Schedule,Happy holidays! Quick note that our warehouse will be closed Dec 24-26 for the holiday. Last orders need to be in by Dec 20th to guarantee delivery before the break. We'll be back at full capacity on the 27th. Thanks!
+COMM0547,2023-09-27,VEN017,from_vendor,Product Discontinuation,"Unfortunately we're discontinuing SKU #9583 due to low demand. If this is something you regularly order, let me know ASAP and we can discuss alternatives or do a final bulk order."
+COMM0548,2023-09-27,VEN009,from_vendor,FW: Industry News,"Thought you might find this article interesting - talks about some of the supply chain trends we discussed last month. No action needed, just FYI!"

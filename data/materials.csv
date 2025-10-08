@@ -1,0 +1,51 @@
+material_id,material_name,category,unit_cost,reorder_point,unit
+MAT001,All-Purpose Flour,Flour,21.85,1360,kg
+MAT002,Bread Flour,Flour,13.25,1595,kg
+MAT003,Cake Flour,Flour,31.94,621,kg
+MAT004,Whole Wheat Flour,Flour,12.02,830,kg
+MAT005,Rye Flour,Flour,25.67,1896,kg
+MAT006,Pastry Flour,Flour,32.05,630,kg
+MAT007,Self-Rising Flour,Flour,5.93,1269,kg
+MAT008,Gluten-Free Flour,Flour,37.49,1937,kg
+MAT009,Almond Flour,Flour,14.56,1715,kg
+MAT010,Semolina Flour,Flour,49.65,1684,kg
+MAT011,Spelt Flour,Flour,18.69,521,kg
+MAT012,Buckwheat Flour,Flour,5.32,1356,kg
+MAT013,Granulated Sugar,Sweetener,18.11,1582,kg
+MAT014,Brown Sugar,Sweetener,22.99,1999,kg
+MAT015,Powdered Sugar,Sweetener,48.82,689,kg
+MAT016,Honey,Sweetener,9.08,1457,kg
+MAT017,Corn Syrup,Sweetener,13.99,1767,kg
+MAT018,Maple Syrup,Sweetener,31.66,1654,kg
+MAT019,Molasses,Sweetener,43.7,1146,kg
+MAT020,Agave Nectar,Sweetener,12.67,666,kg
+MAT021,Butter,Fat,5.6,1100,kg
+MAT022,Margarine,Fat,48.45,741,kg
+MAT023,Vegetable Oil,Fat,22.34,1869,kg
+MAT024,Canola Oil,Fat,9.4,1863,kg
+MAT025,Olive Oil,Fat,15.85,1455,kg
+MAT026,Coconut Oil,Fat,10.49,1008,kg
+MAT027,Shortening,Fat,42.49,534,kg
+MAT028,Lard,Fat,45.92,1911,kg
+MAT029,Palm Oil,Fat,19.03,1913,kg
+MAT030,Sunflower Oil,Fat,14.36,1202,kg
+MAT031,Vanilla Extract,Flavoring,42.9,661,kg
+MAT032,Almond Extract,Flavoring,22.78,1495,kg
+MAT033,Lemon Extract,Flavoring,31.91,1315,kg
+MAT034,Cocoa Powder,Flavoring,19.69,1985,kg
+MAT035,Cinnamon,Flavoring,13.82,1516,kg
+MAT036,Nutmeg,Flavoring,48.25,1219,kg
+MAT037,Ginger,Flavoring,38.63,1378,kg
+MAT038,Cardamom,Flavoring,42.29,716,kg
+MAT039,Peppermint Extract,Flavoring,17.64,879,kg
+MAT040,Orange Zest,Flavoring,17.42,1680,kg
+MAT041,Coffee Extract,Flavoring,41.1,564,kg
+MAT042,Rum Extract,Flavoring,5.7,1020,kg
+MAT043,Bread Bags,Packaging,39.75,1147,units
+MAT044,Cake Boxes,Packaging,5.25,1662,units
+MAT045,Pastry Boxes,Packaging,13.95,891,units
+MAT046,Muffin Cups,Packaging,37.81,788,units
+MAT047,Parchment Paper,Packaging,32.27,730,units
+MAT048,Plastic Wrap,Packaging,34.3,1551,units
+MAT049,Aluminum Foil,Packaging,43.84,1279,units
+MAT050,Bakery Tape,Packaging,19.89,1571,units

@@ -1,0 +1,21 @@
+vendor_id,vendor_name,payment_terms,preferred_vendor
+VEN001,Midwest Grain Supply Co.,Net 60,False
+VEN002,Southern Sweeteners Inc.,Net 30,False
+VEN003,Premium Oils & Fats Ltd.,Net 45,False
+VEN004,Artisan Flavor House,Net 30,False
+VEN005,National Packaging Solutions,Net 60,False
+VEN006,Golden Harvest Foods,Net 30,False
+VEN007,Baker's Choice Ingredients,Net 60,False
+VEN008,Quality Food Distributors,Net 60,True
+VEN009,Sunrise Commodities,Net 60,False
+VEN010,Heritage Mills & Co.,Net 45,False
+VEN011,Coastal Ingredients Group,Net 60,True
+VEN012,Mountain View Suppliers,Net 60,False
+VEN013,Continental Food Service,Net 30,False
+VEN014,Premier Baking Supplies,Net 45,True
+VEN015,Atlantic Trade Partners,Net 60,False
+VEN016,Heartland Provisions,Net 60,True
+VEN017,Summit Ingredient Solutions,Net 30,True
+VEN018,Valley Fresh Foods,Net 60,False
+VEN019,Empire Food Importers,Net 45,False
+VEN020,Cornerstone Supply Chain,Net 45,False
