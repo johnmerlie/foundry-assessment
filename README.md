@@ -4,7 +4,7 @@ This project describes the requirements for a skills assessment for a Foundry So
 
 ## Prerequisites
 
-Completing this assessment requires access to the Foundry platform. A free developer tier account can be obtained by navigating to [](https://build.palantir.com/) and following the 'Sign up' workflow at the top of the page.
+Completing this assessment requires access to the Foundry platform. A free developer tier account can be obtained by navigating to [build.palantir.com](https://build.palantir.com/) and following the 'Sign up' workflow at the top of the page.
 
 Access should take roughly ~20 minutes including account setup and instance provisioning, but YMMV.
 
