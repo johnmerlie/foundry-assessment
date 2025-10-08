@@ -36,16 +36,16 @@ An operational system with three core components:
 
 ### Data Provided
 
-You'll receive 7 CSV files representing 6 months of historical data:
+The data you'll use for the assessment is in the `data` directory of the repository, and contains 8 CSV files representing a variety of historical data associated with the business.
 
-- plants.csv (2 plants)
-- materials.csv (50 materials with categories, costs, reorder points)
-- inventory_levels.csv (daily snapshots for 90 days)
 - consumption_history.csv (daily consumption records for 180 days)
-- vendors.csv (20 vendors with payment terms and preferred status)
-- vendor_material_pricing.csv (price, MOQ, and lead time by vendor-material pair)
+- inventory_levels.csv (daily snapshots for 90 days)
+- materials.csv (50 materials with categories, costs, reorder points)
+- plants.csv (2 plants)
 - purchase_order_history.csv (12 months of orders with on-time delivery data)
 - vendor_communications.csv (500+ rows of communication history with vendors including delivery issues, quality complaints, price negotiations, and operational notes)
+- vendor_material_pricing.csv (price, MOQ, and lead time by vendor-material pair)
+- vendors.csv (20 vendors with payment terms and preferred status)
 
 ### Technical Requirements
 
