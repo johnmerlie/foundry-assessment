@@ -59,6 +59,8 @@ Your solution should demonstrate proficiency with Foundry's core capabilities:
 - Platform features: Leverage Foundry-specific capabilities
 - We're intentionally leaving implementation details open - show us how you'd approach this problem.
 
-## Evaluation
+## Submission & Evaluation
 
-The evaluation will involve demonstrating your solution to a group of Foundry users and answering questions about implementation, approach, and outcomes.
+Please record a 5 minute video (screen recording & audio overlay) demonstrating your process, workflows, and the user interfaces you've created. This should be posted (unlisted ok) to youtube, and provide this link to your recruiting contact.  
+
+The final evaluation will involve live demonstration of your solution to a group of Foundry users and answering questions about implementation, approach, and outcomes.
